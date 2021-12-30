@@ -20,11 +20,7 @@ public class Servidor {
     Mao maojogador2;
     Map<Integer, ArrayList<Carta>> baralhos = new HashMap<>();
 
-    public static void main(String[] args) throws IOException {
-        new Servidor(12345).executa();
-    }
-
-    private final int porta = 12345;
+    private static int porta;
     private static int idCliente = 0;
 
     public Map<Integer, ClienteServidor> clientes;
@@ -32,10 +28,6 @@ public class Servidor {
     public Map<Integer, TrataCliente> tratadores;
 
     public Servidor() {
-
-    }
-
-    public Servidor(int porta) {
         clientes = new HashMap<>();
         conexoes = new TreeMap<>();
         tratadores = new TreeMap<>();
@@ -120,5 +112,9 @@ public class Servidor {
         System.out.println(msg);
         cliente.println(msg);
     }
-
+    
+    public static void main(String[] args) throws IOException {
+        porta = Integer.parseInt(args[0]);
+        new Servidor().executa();
+    }
 }

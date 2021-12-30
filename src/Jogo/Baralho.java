@@ -30,34 +30,34 @@ public class Baralho {
             for (int i = 1; i <= 4; i++) {
                 baralho.add(new Carta(SolidosGeometricos.DODECAEDRO, i));
             }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.CILINDRO, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.CONE, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.ESFERA, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.PRISMA_TRIANGULAR, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.PRISMA_HEXAGONAL, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.PIRAMIDE_TRIANGULAR, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.PIRAMIDE_QUADRANGULAR, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.PIRAMIDE_HEXAGONAL, i));
-//            }
-//            for (int i = 1; i <= 4; i++) {
-//                baralho.add(new Carta(SolidosGeometricos.PRISMA_PENTAGONAL, i));
-//            }
-           
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.CILINDRO, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.CONE, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.ESFERA, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.PRISMA_TRIANGULAR, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.PRISMA_HEXAGONAL, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.PIRAMIDE_TRIANGULAR, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.PIRAMIDE_QUADRANGULAR, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.PIRAMIDE_HEXAGONAL, i));
+            }
+            for (int i = 1; i <= 4; i++) {
+                baralho.add(new Carta(SolidosGeometricos.PRISMA_PENTAGONAL, i));
+            }
+         
         }
 
         embaralha();
